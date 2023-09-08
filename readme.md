@@ -1,6 +1,10 @@
 # libwon
 A simple lib to automatically manage the parallelled experiment details of different configs. It records the internal results, params, etc.
 
+## Install
+```python
+pip install libwon
+```
 ## Usage
 
 ### Collector
