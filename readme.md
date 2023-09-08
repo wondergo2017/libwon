@@ -88,3 +88,21 @@ parallel = Parallel(
 ).execute()
 
 ```
+
+## Example
+Go to the example directory.
+```
+cd examples/test1/
+```
+Check how many programs will be run, or are running, or have already finished.
+```
+python test.py -t check
+```
+Run the programs in parallel.
+```
+python test.py -t run
+```
+Show and analyze the results.
+```
+python test.py -t show -c 0
+```
